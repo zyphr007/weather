@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather application</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="bg"></div>
+        <div class="centerAll">
+            <div class="container">
+                <div class="heading">
+                    <h1>Weather Forecast</h1>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Enter city name" spellcheck="false" />
+                    <button>Search</button>
+                </div>
+                <div class="error">
+                    <p>Invalid City Name</p>
+                </div>
+                <div class="section">
+                    <div class="div">
+                        <h1 class="temperature">20°C</h1>
+                        <h3 class="city">Delhi</h3>
+                    </div>
+                    <img src="images/rain.png" class="section-img" />
+                    <h4 class="weather-type">Weather Type : Mist</h4>
+
+                    <div class="section2">
+                        <div class="humidity-section">
+                            <h3>Humidity</h3>
+                            <img src="images/humidity.png" />
+                            <p class="humidity">50%</p>
+                        </div>
+                        <div class="wind-section">
+                            <h3>Wind </h3>
+                            <img src="images/wind.png" />
+                            <p class="wind">24KM/h</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
